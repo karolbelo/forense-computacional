@@ -48,15 +48,15 @@ Table1. Storage sizes of variables or data types in the above C code
 
 | Variable or data type              | Syze in bytes | 
 |------------------------------------|---------------|
-| student1.id (**100**)              |               |
-| student1.province (**101**)            |               |
-| student1.age (**102**)                 |               |
-| Add lines **100**, **101**, and **102** (**103**)	 |               |
-| Struct student (**104**)               |               |
+| student1.id (**100**)              |    4           |
+| student1.province (**101**)            |         3     |
+| student1.age (**102**)                 |        4       |
+| Add lines **100**, **101**, and **102** (**103**)	 |  11            |
+| Struct student (**104**)               |      12         |
 
 
 **Question 1**  
-Which is bigger? ____________
+Which is bigger? O tamanho da estrutura Student (104)
 
 1. The size of struct Student (**104**) or
 2. Subtotal of the sizes of all the members of struct Student (**103**).
